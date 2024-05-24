@@ -1,0 +1,145 @@
+.dashboard{
+    margin-top: 100px;
+    padding: 0 30px;
+    padding-bottom: 50px;
+
+}
+
+.single-card{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.single-card:nth-child(1){
+    background: var(--card-01-bg);
+}
+
+.single-card:nth-child(2){
+    background: var(--card-02-bg);
+}
+
+
+.single-card:nth-child(3){
+    background: var(--card-03-bg);
+}
+
+
+.single-card:nth-child(4){
+    background: var(--card-04-bg);
+}
+
+
+.card-content h4{
+color: var(--heading-color);
+font-size: 1rem;
+font-size: 400;
+}
+
+.card-content span{
+    color: var(--heading-color);
+    font-size: 2rem;
+}
+
+.card-icon{
+    font-size: 2rem;
+    font-weight: 400 !important;
+    color: rgba(255,255,255,0.845);
+}
+
+.dashboard-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 2rem;
+}
+
+.statics{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    margin-top: 2rem;
+}
+
+.stats{
+    background: var(--primary-color);
+    padding: 30px;
+    border-radius: 5px;
+    height: 320px;
+    padding-bottom: 50px;
+}
+
+.tooltip-style{
+    background: var(--body-bg) !important;
+    color: #fff;
+}
+.stats-title{
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.recommend-car-card{
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.recommend-car-card:nth-child(1){
+    background: var(--recommend-car01-bg);
+}
+
+.recommend-car-card:nth-child(2){
+    background: var(--recommend-car02-bg);
+}
+
+.recommend-car-card:nth-child(3){
+    background: var(--recommend-car03-bg);
+}
+
+
+.recommend-car-top h5{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    color: var(--body-bg);
+    margin-bottom: 10px;
+}
+
+.recommend-car-top h5 span{
+    font-size: 1.2rem;
+}
+
+.recommend-car-bottom h4{ 
+font-size: 1.3rem;
+margin: 10px 0px;
+}
+
+.recommend-car-other{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.recommend-icons{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.recommend-icons p:nth-child(1){
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.recommend-cars-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 2rem;
+    column-gap: 2rem;
+}
